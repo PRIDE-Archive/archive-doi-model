@@ -1,7 +1,6 @@
 package uk.ac.ebi.pride.archive.doi.model;
 
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * DOIRegistration represents the result of a DOI registration request
@@ -14,7 +13,7 @@ public class DOIRegistration implements Serializable{
     private String mappedUrl;
     private RegistrationStatus status;
     private String message;
-    private Date date;
+    private String date;
 
     public DOIRegistration() {
     }
@@ -23,7 +22,7 @@ public class DOIRegistration implements Serializable{
                            String mappedUrl,
                            RegistrationStatus status,
                            String message,
-                           Date date) {
+                           String date) {
         this.doi = doi;
         this.mappedUrl = mappedUrl;
         this.status = status;
@@ -63,11 +62,11 @@ public class DOIRegistration implements Serializable{
         this.message = message;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
