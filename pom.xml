@@ -53,9 +53,9 @@
     </build>
 
     <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</developerConnection>
-        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</url>
+        <connection>scm:git:https://github.com/PRIDE-Archive/archive-doi-model.git</connection>
+        <developerConnection>scm:git:https://github.com/PRIDE-Archive/archive-doi-model.git</developerConnection>
+        <url>https://github.com/PRIDE-Archive/archive-doi-model.git</url>
         <tag>HEAD</tag>
     </scm>
 
