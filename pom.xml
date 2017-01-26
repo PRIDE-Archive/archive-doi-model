@@ -32,13 +32,6 @@
             mvn clean package
     -->
 
-    <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</developerConnection>
-        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</url>
-    </scm>
-
-
     <build>
         <plugins>
             <!-- Maven source plugin to generate the source jar -->
@@ -97,5 +90,12 @@
             <url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</connection>
+        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</developerConnection>
+        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
