@@ -52,45 +52,6 @@
         </plugins>
     </build>
 
-    <repositories>
-        <!-- EBI repo -->
-        <repository>
-            <id>nexus-ebi-repo</id>
-            <name>The EBI internal repository</name>
-            <url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo/</url>
-            <releases>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-
-        <!-- EBI SNAPSHOT repo -->
-        <repository>
-            <id>nexus-ebi-snapshot-repo</id>
-            <name>The EBI internal snapshot repository</name>
-            <url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <!-- EBI repo -->
-        <repository>
-            <id>nexus-ebi-repo</id>
-            <url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo</url>
-        </repository>
-        <!-- EBI SNAPSHOT repo -->
-        <snapshotRepository>
-            <id>nexus-ebi-repo-snapshots</id>
-            <url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <scm>
         <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</connection>
         <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-doi-model/trunk</developerConnection>
