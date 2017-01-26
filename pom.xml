@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>uk.ac.ebi.pride.archive</groupId>
     <artifactId>archive-doi-model</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -56,7 +56,7 @@
         <connection>scm:git:https://github.com/PRIDE-Archive/archive-doi-model.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Archive/archive-doi-model.git</developerConnection>
         <url>https://github.com/PRIDE-Archive/archive-doi-model.git</url>
-        <tag>HEAD</tag>
+        <tag>archive-doi-model-1.0.3</tag>
     </scm>
 
 </project>
